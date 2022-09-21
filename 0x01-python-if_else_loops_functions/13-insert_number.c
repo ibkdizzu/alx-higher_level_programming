@@ -1,3 +1,8 @@
+/*
+ * File: 13-insert_number.c
+ * Auth: Brennan D Baraban
+ */
+
 #include "lists.h"
 
 /**
@@ -31,3 +36,4 @@ listint_t *insert_node(listint_t **head, int number)
 	node->next = new;
 
 	return (new);
+}
