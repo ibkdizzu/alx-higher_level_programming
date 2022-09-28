@@ -6,4 +6,4 @@ def best_score(a_dict):
     _max = max(a_dict.values())
     for key in a_dict:
         if _max == a_dict[key]:
-            return
+            return key
