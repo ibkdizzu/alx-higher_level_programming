@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-def best_score(a_dictionary):
-    if not a_dictionary:
+
+def best_score(a_dict):
+    if a_dict is None or a_dict == {}:
         return None
-    return max(a_dictionary)
+    _max = max(a_dict.values())
+    for key in a_dict:
+        if _max == a_dict[key]:
+            return 
